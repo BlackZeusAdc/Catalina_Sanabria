@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/slider.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,19 +16,18 @@
                 <div class="logo"><img src="img/logo/logohorizontal.png" alt=""></div>
                        <ul class="nav-list" id="navi-list">
                             <li class="list-item"><a href="index.html" class="active_inicio">INICIO</a></li>
-                            <li class="list-item"><a href="#portafolio" class="active_tienda">TIENDA</a></li>                             
+                            <li class="list-item"><a href="#portafolio" class="active_tienda">TIENDA</a></li>
                             <li class="list-item"><a href="#nosotros" class="active_nosotros">NOSOTROS</a></li>
                             <li class="list-item"><a href="#contacto" class="active_contacto">CONTACTO</a></li>
                             <li class="list-card">
-                            <img class="carrito" src="./img/iconos/carrito.png" aria-hidden="true">
-                            <span>0</span></li>                            
-                        </ul>
+                            <a href="#contacto" class="active_contacto"><img class="carrito" src="./img/iconos/carrito.png" hidden="true"></a><span>0</span></li>              
+                       </ul>
                        <div class="menu-reson" id="toggle">
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
-                    </div>
+                            <div class="menu-line"></div>
+                            <div class="menu-line"></div>
+                            <div class="menu-line"></div>
+                            <div class="menu-line"></div>
+                       </div>
             </nav>    
         </div>
 
@@ -54,13 +54,13 @@
                 </div>
                 <div class="facebook">      
                 </div>
-                <div class="social">
+               <!-- <div class="social">
                     <ul class=""> 
                         <li><a href="http://www.facebook.com" class="icon-facebook" target="_blank"><img src="./img/iconos/facebook.png" alt=""></a></li>
                         <li><a href="http://www.instagram.com" class="icon-instagram" target="_blank"><img src="./img/iconos/instagram.png" alt=""></a></li>
                         <li><a href="https://www.whatsapp.com/" class="icon-whatsap" target="_blank"><img src="./img/iconos/chat.png" alt=""></a></li>
                     </ul>
-                </div>
+                </div>-->
         </div>
     </div>
 </header>  
@@ -227,30 +227,27 @@
     </section>
 
 
-
-
     <section class="historia" id="nosotros">
         <div class="reseña-historia">
                <img src="./img/nosotros/nosotros_1.png" alt="">
         </div>
     </section>
 
-
     <section class="mision">
         <div class="reseña-mision">
-               <img src="./img/nosotros/nosotros_2.png" alt="">
+              <div class="susti"></div>
+              <img src="./img/nosotros/nosotros_2.png" alt="">
         </div>
     </section>
 
 
     <div class="row-contacto">
-
         <section class="contacto" id="contacto">
             <div class="contacto-text">
                 <p>Contacto</p>
                 <span class="cua">
                     BIENVENIDOS A LA TIENDA ONLINE DE 
-                    TRADICION, DECICACION Y SERVICIO.<br>
+                    TRADICION, DEDICACION Y SERVICIO.<br>
 
                     <br>Nuestra tienda es unicamente virtual,
                     hacemos envios a todo el pais.
@@ -273,29 +270,23 @@
                         </div>
                 </form>
             </div>
-        </section>
-                
+        </section>       
     </div>
+    
     <div class="wraper">
-     <section class="row-suscribase">
+        <section class="row-suscribase">
             <div class="suscribase">
                 <span>Suscríbete aquí:</span>
-                <input class="input-sus" type="text" placeholder="Escribe tu Correo Electronico" id="suscribase" name="suscribase" value="">
-                 
+                <input class="input-sus" type="text" placeholder="Escribe tu Correo Electronico" id="suscribase" name="suscribase" value="">            
             </div>
              
-      </section>
-     
-      <div class="center">
+        </section>
+            <div class="center">
                 <button class="unirse">Unirse</button>
-        </div>  
-    
-       
+            </div>  
     </div>  
-</div><!---End Block-->
-
+<!---End Block-->
 </main>
-
 </body>
 
 
@@ -344,5 +335,5 @@
 </div>
 </footer>
 
-
+<script src="js/slider.js"></script>
 </html>
