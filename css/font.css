@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN\ Neuzeit\ Grotesk\ LT\ W01\ BdCn.woff2') format('woff2'),
+        url('../fonts/DIN\ Neuzeit\ Grotesk\ LT\ W01\ BdCn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Neuzeit Grotesk W01 Negrita';
+    src: url('../fonts/DIN\ Neuzeit\ Grotesk\ W01\ Negrita.woff2') format('woff2'),
+        url("../fonts/DIN\ Neuzeit\ Grotesk\ W01\ Negrita.woff") format("woff");
+}
