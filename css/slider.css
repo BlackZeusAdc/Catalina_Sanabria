@@ -8,4 +8,4 @@
 .barra{cursor:pointer;height:3px;width:30px;background:#dcdde1;display:inline-block;margin:0 2px 3em 3px;}
 .active{background:#c94e38;}
 .fade{animation-name:fade;animation-duration:1.5s;}
-to{opacity:1;}
+@keyframes fade { from { opacity: .4;}to {opacity: 1;}}

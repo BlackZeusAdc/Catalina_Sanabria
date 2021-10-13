@@ -1,0 +1,48 @@
+@media all and (max-width: 880px) {
+.menu h1{font-size:20px;}
+.nav-list .list-item{padding:5px 10px;}
+.menu .logo img{right:5%;}
+.menu img{width:250px;height:70px;}
+.nav-list .list-item,.list-card{padding:0 3px;}
+.historia .reseña-historia{padding:0px; margin-top: 20px}
+.historia .reseña-historia img{width:100%;padding-bottom:10px;}
+.mision .reseña-mision{margin-top:10px;padding:5px 0;}
+.mision .reseña-mision img{width:100%;}
+.row-contacto,.wraper{display:flex;width:auto;background:#fcf4e0;flex-direction:column;position:relative;outline:none;}
+.contacto{display:flex;width:80%;background:#fcf4e0;flex-direction:column;position:relative;outline:none;justify-content:center;align-content:center;align-items:center;margin:0;}
+.wraper section{position:relative;width:75%;font-size:20px;margin:0;}
+.row-suscribase .suscribase input[type="text"]{display:block;color:#FFF;font-weight:900;background:#892101;width:220px;border:none;font-size:12px;padding:5px 15px;}
+.wraper .center button{margin-left:292px;margin-top:-10px;margin-bottom:15px;}
+.row-suscribase .suscribase span{font-size:25px;}
+.contacto-text{text-align:center;width:80%;}
+@media all and (max-width: 780px) {
+.menu{display:flex;flex-direction:column;font-size:15px;color:#FFF;gap:0;}
+.menu h1{display:flex;justify-content:center;align-content:center;margin-right:0;margin-top:2px;margin-bottom:2px;}
+.barra{position:relative;margin-bottom:.9em;width:25px;}}
+@media screen and (max-width: 680px) {
+.historia .reseña-historia{display:flex;flex-direction:column;width:100%;justify-content:center;padding:30px;}
+.historia .reseña-historia .his,.his2{display:flex;position:relative;width:75%;height:650px;object-fit:contain;object-position:center center;background-size:100% 100%;margin:auto;}
+.mision .reseña-mision{display:flex;flex-direction:column;width:100%;justify-content:center;padding:30px;}    
+.mision .reseña-mision .susti{display:flex;position:relative;width:75%;height:650px;object-fit:contain;object-position:center center;background-size:100% 100%;margin:auto;}  
+.historia .reseña-historia .his{background-image:url(../img/nosotros/nos_1.png);margin-bottom:30px;}
+.historia .reseña-historia .his2{background-image:url(../img/nosotros/nos_2.png);}
+.mision .reseña-mision .susti{background-image:url(../img/nosotros/nos_3.png);margin-top: -90px;margin-bottom:-50px}    
+.historia .reseña-historia img, .mision .reseña-mision img{display:none;}
+.action-producto{width:300px;}
+.contenedor-portafolio .card{padding:5px;}
+.contenedor-portafolio .card .imagenes{background:#FFF;}
+.contenedor-portafolio .card .imagenes,.contenedor-portafolio .card .imagenes img{width:100%;max-width:300px;min-height:274px;align-items:center;justify-content:center;margin:auto;}
+.row_footer{display:flex;flex-direction:column;}
+.pie{display:flex;border-top:1px solid #917c7c;width:100%;font-size:12px;justify-items:center;justify-content:center;align-items:center;align-content:center;margin:auto;}
+.pie .reseña-pie{display:block;}
+.pie .reseña-pie p{display:flex;align-content:center;align-items:center;justify-content:center;font-size:15px;}
+.row_footer .ultima{display:none;}
+.center{display:flex;}
+.wraper .center{width:62%;height:auto;margin:auto;}
+.wraper section{position:relative;width:67%;font-size:10px;margin:0;}
+.row-suscribase .suscribase{width:100%;flex-direction:column;float:left;display:flex;align-items:flex-end;}
+.wraper .center button{margin-left:auto;}
+.contacto-text{text-align:center;}
+.social{top:300px;}
+.social ul li img{padding-top:2px;width:15px;height:15px;}
+@media screen and (max-width: 580px) {.direcciones a {color: #fff;display: inline-block; padding: 10px;text-decoration: none;}}

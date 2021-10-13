@@ -1,11 +1,9 @@
-.header-portafolio{position:relative;background:#FDF3DB;margin:auto;width:100%;height:auto;padding:5px;}
+.header-portafolio{position:relative;background:#FDF3DB;margin:auto;width:100%;height:auto;padding:10px;}
 .header-portafolio .reseña-portafolio{display:flex;justify-content:center;align-items:center;align-content:center;flex-direction:column;height:auto;margin:auto;margin-top:40px;}
 .header-portafolio h3{width:auto;margin:auto;font-size:35px;color:black;font-family:'DIN';font-weight:normal;font-style:normal;}
-.header-portafolio p{width:auto;font-size:30px;color:black;padding:5px;}
-.portafolio {display: flex;justify-content: center;align-items: center;align-content: center;min-height: 100vh;
-background: #fcf4e0;}
-.contenedor-portafolio {position: relative;justify-content: center;align-content: center;width: calc(80% - 1em);
-display: grid;grid-template-columns: repeat(auto-fit, minmax(210px, 3fr));grid-gap: 10px;padding: 20px;margin:auto;}
+.header-portafolio p{width:auto;font-size:30px;color:black;padding:5px;} 
+.portafolio {display: flex;justify-content: center;align-items: center;align-content: center;min-height: 50vh; background: #fcf4e0;} 
+.contenedor-portafolio {position: relative;justify-content: center;align-content: center;width: calc(80% - 10px); display: grid;grid-template-columns: repeat(auto-fit, minmax(210px, 3fr));grid-gap:10px;padding: 20px;margin:auto;}  
 .card button{display:flex;justify-content:center;cursor:pointer;border:none;outline:none;font-family: 'DIN'}
 .card .comprar{background:#892101;color:white;font-size:13px;font-weight:normal;margin:auto;padding:5px 15px;position:relative;align-items:center;align-content:center;justify-content:center;margin-top:-5px;}
 .card .comprar:hover {background: #c22f02;}
