@@ -1,0 +1,11 @@
+.slider{display:flex;justify-content:center;width:100%;background:#fcf4e0;color:rgba(0,19,29,0.9);height:auto;margin:0;}
+.slide-contenedor{display:flex;justify-content:center;max-width:100%;width:100%;min-width:100%;height:auto;position:relative;overflow:hidden;object-fit:cover;bottom:0;}
+.miSlider img{width:100%;height:auto;}
+.direcciones{width:90%;height:100%;position:absolute;top:0;display:flex;justify-content:space-between;align-items:center;font-size:20px;}
+.direcciones a{color:#fff;display:inline-block;text-decoration:none;padding:20px;}
+.direcciones a:hover{background:rgba(0,0,0,.5);transition:.5s;}
+.barras{bottom:.5em;position:absolute;width:100%;display:flex;justify-content:center;}
+.barra{cursor:pointer;height:3px;width:30px;background:#dcdde1;display:inline-block;margin:0 2px 3em 3px;}
+.active{background:#c94e38;}
+.fade{animation-name:fade;animation-duration:1.5s;}
+@keyframes fade { from { opacity: .4;}to {opacity: 1;}}

@@ -1,0 +1,6 @@
+.historia,.mision{display:flex;justify-content:center;width:100%;background:#fcf4e0;height:auto;margin:0;}
+.historia .reseña-historia,.mision .reseña-mision{width:auto;justify-content:center;padding:50px;}
+.historia .reseña-historia img,.mision .reseña-mision img{width:100%;height:auto;}
+.section-we{position:relative;background:#FDF3DB;margin:auto;width:100%;height:auto;padding:5px;}
+.section-we .title-we{display:flex;justify-content:center;align-items:center;align-content:center;flex-direction:column;height:auto;margin:auto;margin-top:30px; margin-bottom: 0px}
+.section-we .title-we h3{width:auto;margin:auto;font-size:35px;color:black;font-family:'DIN';font-weight:normal}
